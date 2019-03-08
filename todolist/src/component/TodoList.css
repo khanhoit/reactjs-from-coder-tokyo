@@ -1,0 +1,40 @@
+.todolist{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 12px 0;
+    transition: all 0.5s ease-in-out;
+}
+.todolist:hover .close{
+    opacity: 1;
+}
+
+.todolist>div{
+    display: flex;
+    margin: 0 10px;
+}
+.content{
+    flex: auto;
+}
+.circle{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #bdbdbd;
+    background-size: 24px 24px;
+}
+
+.close{
+    transition: all 0.2s ease-in-out;
+    height: 24px;
+    width: 24px;
+    background-image: url('../img/close.svg');
+    background-size: 12px 12px;
+    color: coral;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+}
+.close:hover, .check-mark:hover{
+    cursor: pointer;
+}

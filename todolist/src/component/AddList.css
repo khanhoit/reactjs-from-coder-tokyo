@@ -1,0 +1,27 @@
+.add{
+    display: flex;
+    align-items: center;
+}
+.add>*{
+    margin: 0 10px;
+}
+.add .input-list{
+    flex: auto;
+    margin: 0px 10px;
+}
+.add .input-list>input:focus{
+    outline: none;
+    border-color:coral;
+
+}
+.add .input-list>input{
+    width: 100%;
+    border-radius: 9999px;
+    border: 2px solid #bdbdbd;
+    padding: 10px 8px;
+    font-size: 14px;
+}
+
+.isComplete{
+    border: 2px solid rgb(62, 62, 255);
+}
